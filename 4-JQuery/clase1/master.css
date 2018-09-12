@@ -1,0 +1,21 @@
+#circle{
+    border-radius: 50%;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.square{
+    background-color: red;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#faded{
+    display: none;
+}
+

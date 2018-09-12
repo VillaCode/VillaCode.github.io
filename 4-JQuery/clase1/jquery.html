@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <link rel="stylesheet" href="master.css">
+
+</head>
+
+<body>
+
+    <p id="faded">Hola buenas tardes!</p> 
+    <button id="fadb">Magiccc</button>
+    <div class="square"></div>
+    <div id="circle"></div>
+    <div class="square"></div>
+
+
+    <script type="text/javascript">
+        if (typeof jQuery == "undefined") {
+            alert("not working");
+        }
+    </script>
+    <script>
+
+        $("#circle ").click(function(){
+            $(this).animate({
+                width: 300,
+                height: 300,
+                marginLeft: "100px",
+                marginTop: "100px"
+
+            }, 1000, function(){
+                $(this).css("background-color", "red");
+            }) 
+            
+        });
+       
+    
+
+        $("#fadb").click(function(){
+            $("#faded").fadeToggle();
+        });
+
+    </script>
+
+</body>
+
+</html>
