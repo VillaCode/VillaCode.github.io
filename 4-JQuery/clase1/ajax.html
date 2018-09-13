@@ -10,12 +10,17 @@
 </head>
 <body>
     
+
+    <p id="texto"></p>
+
     <script type="text/javascript" src="">
         
-        $.get("info.txt", function(data){
+        $.ajax("info.text").done(function(data){
 
-            alert(data);
-
+            $("#texto").html(data);
+            
+        }).fail(function() {
+            alert("couldnt get data");
         });
     
     </script>
