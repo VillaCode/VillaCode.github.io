@@ -1,0 +1,44 @@
+body{
+
+    font-family: Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+input{
+
+    padding: 5px 5px 12px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 320px;
+    
+}
+
+label{
+
+    position: relative;
+    top: 12px;
+    width: 200px;
+    width: 150px;
+    float: left;
+}
+
+#wraper{
+
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.labels{
+
+    margin-top: 10px;
+
+}
+
+#submit{
+
+    width: 200px;
+    margin-left: 150px;
+
+}
